@@ -4,7 +4,7 @@
 
 ## Visão Geral
 
-Este repositório contém o código-fonte de um modelo de site com design moderno e responsivo. Utiliza HTML, CSS e Google Fonts para estilização. O modelo inclui uma barra de navegação e uma seção inicial proeminente com uma imagem de fundo.
+Este repositório contém o código-fonte de um modelo de site criado para estudo. Utiliza HTML, CSS  O modelo inclui uma barra de navegação e uma seção inicial proeminente com uma imagem de fundo.
 
 ## Estilos
 

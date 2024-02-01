@@ -135,3 +135,110 @@ html {
     display: flex;
     justify-content: space-around;
 }
+
+/*second-section Sobre Nós*/
+
+.sobre-nos {
+    background-color: #900cee;
+    width: 100vw;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border-radius: 50%;
+    border: 2px solid rgb(155, 155, 155);
+    object-fit: cover;
+    object-position: center;
+}
+
+.main {
+    display: flex;     
+    justify-content: space-between;
+    
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.contentsobre p {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    width: 600px;
+}
+
+/*third-section Encontros*/
+
+.encontros {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE475;
+}
+
+.encontros h2 {
+    font-size: 6rem;
+    color: #900cee;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+.itens-encontros {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    justify-content: center;
+    width: 100vw;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 30px;
+}
+
+.itens-encontros .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(221, 221, 221);
+    border: none;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    transition: all 200ms ease-in;
+}
+
+.itens-encontros .info h3 {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+
+}
+
+
+.itens-encontros .img {
+    width: 100%;
+    height: 200px;
+}
